@@ -1,0 +1,9 @@
+<input type="text" id="editText" />
+<input type="button" value="Say" onClick="showAndroidToast()" />
+
+<script type="text/javascript">
+    function showAndroidToast() {
+        var test = document.getElementById("editText");
+        Android.showToast(test.value);
+    }
+</script>
